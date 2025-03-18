@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevIfes - Quem Somos</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">DevIfes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="quem-somos.html">Quem Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicos.html">Nossos Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato</a>
+                    </li>
+                </ul>
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="userDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-user me-2"></i>Olá, Usuário!
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+                        <li><a class="dropdown-item" href="#"><i class="fas fa-user-circle me-2"></i>Meu Perfil</a></li>
+                        <li><a class="dropdown-item" href="#"><i class="fas fa-key me-2"></i>Alterar Senha</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt me-2"></i>Sair</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="bg-primary text-white text-center py-5 mt-5">
+        <div class="container">
+            <h1>Quem Somos</h1>
+            <p class="lead">Conheça a história e os valores da Empresa XYZ</p>
+        </div>
+    </header>
+
+    <!-- Seção Nossa História -->
+    <section class="container my-5">
+        <div class="row align-items-center">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <h2>Nossa História</h2>
+                <p>Fundada em 2010, a Empresa DevIfes nasceu com a missão de fornecer soluções inovadoras para empresas de todos os portes. Ao longo dos anos, construímos uma reputação sólida no mercado, baseada em qualidade, confiança e resultados.</p>
+                <p>Começamos com uma pequena equipe de apenas 5 profissionais, mas com uma grande visão. Hoje, contamos com mais de 50 especialistas em diversas áreas, todos comprometidos com a excelência e o sucesso dos nossos clientes.</p>
+                <p>Nossa trajetória é marcada por constante evolução e adaptação às novas tecnologias e tendências do mercado, sempre mantendo o foco em entregar valor real para nossos clientes.</p>
+            </div>
+            <div class="col-lg-6">
+                <img src="/api/placeholder/600/400" class="img-fluid rounded" alt="Nossa História">
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Nossos Valores -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Nossos Valores</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-handshake fa-3x text-primary mb-3"></i>
+                            <h3 class="card-title">Integridade</h3>
+                            <p class="card-text">Agimos com honestidade e ética em todas as nossas relações, estabelecendo confiança com nossos clientes e parceiros.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-lightbulb fa-3x text-primary mb-3"></i>
+                            <h3 class="card-title">Inovação</h3>
+                            <p class="card-text">Buscamos constantemente novas ideias e soluções criativas para os desafios dos nossos clientes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-users fa-3x text-primary mb-3"></i>
+                            <h3 class="card-title">Colaboração</h3>
+                            <p class="card-text">Trabalhamos em conjunto com nossos clientes, entendendo suas necessidades e construindo soluções personalizadas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h5>DevIfes</h5>
+                    <p>Soluções inovadoras para o seu negócio desde 2010.</p>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <h5>Links Rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="quem-somos.html" class="text-white">Quem Somos</a></li>
+                        <li><a href="servicos.html" class="text-white">Nossos Serviços</a></li>
+                        <li><a href="contato.html" class="text-white">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contato</h5>
+                    <address>
+                        <i class="fas fa-map-marker-alt me-2"></i> Rua Exemplo, 123 - Centro<br>
+                        <i class="fas fa-phone me-2"></i> (11) 1234-5678<br>
+                        <i class="fas fa-envelope me-2"></i> contato@devifes.com.br
+                    </address>
+                    <div class="mt-3">
+                        <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 DevIfes. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+/* padrao para as imagens da aba de contato */
+.card-img-top {
+    width: 300px;  /* Largura fixa */
+    height: 300px; /* Altura fixa */
+    object-fit: cover; /* Garante que a imagem se ajuste sem distorcer */
+    margin-top: 20px; /* Centraliza a imagem */
+    
+}
+/* Criado para alterar o posicionamento da imagem da segunda mulher na aba de contatos */
+.img-mulher2 {
+    object-position: 700% 20%;
+}
